@@ -13,6 +13,7 @@ from azure_config import AzureConfig
 # Initialize AzureConfig
 azure_config = AzureConfig()
 
+
 def get_embedding(question: str):
     embedding_model = os.environ["AZURE_OPENAI_EMBEDDING_MODEL"]
 
